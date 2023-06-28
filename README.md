@@ -4,8 +4,8 @@
 
 ## **Team Member:**
 
-- **Noah Mokhtar (Product Owner)** 
-- **Mingjian Bill Qin(Scrum Master)** 
+- **Noah Mokhtar (Product Owner, Developer)** 
+- **Mingjian Bill Qin(Scrum Master, Developer)** 
 - **Sam Akash (Developer)** 
 - **Kamsi Mbanefo(Developer)**
 
@@ -39,7 +39,7 @@ Creating a space for the harvard community to find Meditation easily and for fre
 # **Users Stories & Estimates:**
 1. Admin Portal (4 points)
 2. Home Page (3 points)
-3. Wizard Experience (3 points)
+3. Mood Selector (1 points)
 4. Online Meditation (8 points)
 5. Group Activities (8 points)
 6. Refer a friend (3 points)
