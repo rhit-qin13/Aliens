@@ -24,6 +24,7 @@ Creating a space for the harvard community to find Meditation easily and for fre
 - Harvard Visitors
 - Harvard Alumni
 - Cambridge Community
+- System Admin
 
 ## **Persona 1: (Real Person)**
 ![image](https://github.com/rhit-qin13/Aliens/assets/112580159/30e277d6-0f08-4ae8-974b-773a24f4702d)
@@ -36,9 +37,9 @@ Creating a space for the harvard community to find Meditation easily and for fre
 
 
 # **Users Stories & Estimates:**
-1. User Registration (4 points)
-2. Profile Management (3 points)
-3. Onboarding (3 points)
+1. Admin Portal (4 points)
+2. Home Page (3 points)
+3. Wizard Experience (3 points)
 4. Online Meditation (8 points)
 5. Group Activities (8 points)
 6. Refer a friend (3 points)
@@ -57,18 +58,17 @@ Creating a space for the harvard community to find Meditation easily and for fre
 ## **Definition of Ready:**
 - Story has title
 - Has user stories sentences/ statements (As I… I want to.. So that..)
-- Story has Additional details & Acceptance Criteria
-- Story is estimated 
+- Story has Additional Details & Acceptance Criteria
+- Story is Estimated 
 - Story added to a Sprint
-- Code Implemented
-- Code is reviewed
-- Story is tested
+- Story is priortized
+- Story is broken down to small tasks
 
 ## Whole Team Relative-size Estimates: 
-met for 6 hours to dicuss product vision & user 
-story and we came up with the 51 Story Points 
+Met for 6 hours to dicuss product vision & user 
+stories and we came up with the 51 Story Points 
 
-### **Developers participate in estimating:**
+### **Developers participated in estimating:**
 - Kamsi
 - Bill
 - Sam
