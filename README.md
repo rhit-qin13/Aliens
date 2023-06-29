@@ -4,8 +4,8 @@
 
 ## **Team Member:**
 
-- **Noah Mokhtar (Product Owner)** 
-- **Mingjian Bill Qin(Scrum Master)** 
+- **Noah Mokhtar (Product Owner, Developer)** 
+- **Mingjian Bill Qin(Scrum Master, Developer)** 
 - **Sam Akash (Developer)** 
 - **Kamsi Mbanefo(Developer)**
 
@@ -37,24 +37,28 @@ Creating a space for the harvard community to find Meditation easily and for fre
 
 
 # **Users Stories & Estimates:**
-1. Admin Portal (4 points)
-2. Home Page (3 points)
-3. Wizard Experience (3 points)
-4. Online Meditation (8 points)
-5. Group Activities (8 points)
-6. Refer a friend (3 points)
-7. Locating Local Resources (4 points)
-8. Scheduling & reminders (6 points)
-9. Progress Tracking (5 points)
-10. Identify Emergency Patterns (6 points)
-11. Support(1 point)
+1. Home Page (3 points)
+2. Mood Selector (1 points)
+3. Meditation Session (4 points)
+4. Content Uploader(4 points)
+5. Event (4 points)
+6. Refer a friend (2 points)
+7. Locating Local Resources (3 points)
+8. Progress Tracking (4 points)
+9. Identify Emergency Patterns (4 points)
+10. Support(1 point)
+11. Scheduling & reminders (4 points)
 
 ## **Rational of Ordering:**
-- Our smallest user story is “Support” which is a single webpage with a an email link, and we estimated this story as 1. 
+- Bussiness Value
+- User needs
 - Importance
 - Complexity
-- Urgency
-
+- Urgency 
+## **Rational of Estimate:**
+ We estimated the smallest User story Support as 1 point because it is a single webpage with limited functionality. 
+ Based on that, we are able to estimate the rest of the stories 
+ 
 ## **Definition of Ready:**
 - Story has title
 - Has user stories sentences/ statements (As I… I want to.. So that..)
