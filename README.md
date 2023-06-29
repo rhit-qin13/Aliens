@@ -1,10 +1,12 @@
+
+
 # Aliens Software Development Project for Harvard Summer School 2023
 ##
 # <font color="Green"> Team name: Alliens </font>
 
 ## **Team Member:**
 
-- **Noah Mokhtar (Product Owner)** 
+- **Nora Mokhtar (Product Owner)** 
 - **Mingjian Bill Qin(Scrum Master, Developer)** 
 - **Sam Akash (Developer)** 
 - **Kamsi Mbanefo(Developer)**
@@ -116,21 +118,23 @@ Explaination of forcast: This sprint is short with 4 business days only. Based o
 
 ## Decomposed Stories as Developer Tasks:
 - Home Page:
-    1- Create backend 
-    2- Modify access to homepage
-    3- Frontend modify home page to look nicer 
-    4- Create the UI design and flow 
+    1. Create backend 
+    2. Modify access to homepage
+    3. Frontend modify home page to look nicer 
+    4. Create the UI design and flow 
 - Mood Selector:
-   1- Create moods backend
-   2- Modify entities access between users
-   3- Frontend modify Moods page to look nicer
-   4- Create the UI design and flow 
+   1. Create moods backend
+   2. Modify entities access between users
+   3. Frontend modify Moods page to look nicer
+   4. Create the UI design and flow 
 - Contact Us:
-  1- Create contanct Us page
-  2- Create backend for Contact Us
+  1. Create contanct Us page
+  2. Create backend for Contact Us
 
-# Srcum Board Link: 
+# Srcum Board Link (Kanban Board): 
 https://trello.com/b/jLQWHw8P/crimson-calm-aliens-2023
+
+Note: Tasks can be accessed by clicking on the user story.
 
 
 ## Sprint Burndown Chart:
@@ -144,100 +148,87 @@ https://trello.com/b/jLQWHw8P/crimson-calm-aliens-2023
 
   
 ## Daily Scrum Meetings:
-Monday 06/26 First Daily Scrum Meeting
-Team reviewed our sprint backlogs; dicussed the impediments;
-Bill: Nothing done yet.
+
+Monday 06/26 (First Daily Scrum Meeting)
+- Team reviewed our sprint backlogs; dicussed the impediments;
+- Bill:
+Nothing done yet.
 Plan to start building home page html and css. 
 Impediment: Had problem on how to correctly connect to the backend, solved by Sam's assistance.
 
-Sam: 
+- Sam: 
 Nothing done yet.
 Plan to work on homepage backend. 
 Impediment: Had some Github merge and permission issue.
 
-Kamsi: 
+- Kamsi: 
 Nothign done yet.
 Plan to finish all installation by the end of the day.
 Impediment: Had problem on installing the environment. 
 
+-----------------
+
 Tuesday 06/27
-Team reviewed sprint backlogs; dicussed the impediments; Updated Burndown chart.
-Bill: 
+- Team reviewed sprint backlogs; dicussed the impediments; Updated Burndown chart.
+- Bill: 
 Completed half of the home page development, and html is completed. 
 Today will start  working on css of homepage. 
 No impediments
 
-Sam: Completed the backend data structure for home page backend.
+- Sam: Completed the backend data structure for home page backend.
 Today plans to work on mood selector backend.
 No impediments. 
 
-Kamsi: Completed environment setup.
+- Kamsi: Completed environment setup.
 Today plan to research typescript syntax. 
 Impedimnet had problem using angular bc first time using it.
 
-Wednesday 06/28
-Team reviewed sprint backlogs; dicussed the impediments; Updated Burndown chart.
+-----------------
 
-Bill: 
+Wednesday 06/28
+- Team reviewed sprint backlogs; dicussed the impediments; Updated Burndown chart.
+
+- Bill: 
 Completed Homepgae developement including CSS. 
 Today planning to to finish the mood selector page that night. 
 No Impedimnets
 
-Sam: 
+- Sam: 
 Completed mood selector backend.
 Plans to day to work on  "contact us" backend
 No Impedimnets.
 
-Kamsi: 
+- Kamsi: 
 Worked on reseraching angular framework componenets. 
 Plans today to work on "Contact Us" page.
 Imediments: Having some challenges with Angular architecture. 
 
-Thursday 06/29
-Team reviewed sprint backlogs; dicussed the impediments; Updated Burndown chart.
+-----------------
 
-Bill: 
+Thursday 06/29
+- Team reviewed sprint backlogs; dicussed the impediments; Updated Burndown chart.
+
+- Bill: 
 Completed the mood selection page html and css. 
 Plan to work on the seleting mood functionality. 
 No impediments.
 
-Sam: 
+- Sam: 
 Compelted the backend for contact us. 
 Plan to work on meditation page backend. 
 No impediments.
 
-Kamsi: 
+- Kamsi: 
 Completed reseraching angular componenets. 
 Plan to work on writing Js code with Bill.
 No impediments.
 
-## Sprint Retrspective: 
-What is going well?
--We made a realistic velocity as our velocity was 5 and we got through 5 story points
--Our division of labor works well as everyones skill sets are taken advantage of
--Our daily scrums made clear what we had done and what had to be completed for the next day
 
-What isn't going well
--Impediments make it difficult to meet up physically
--Too much time spent on refactoring sprint backlog
--Tasks for Sprint backlog items needed constant adjustment and change
-
-What we can enhance
-- Detailing Impediments more concisely in our daily scrum
-- Clearer tasks within PBIs taken into our sprint backlog during sprint planning
-- Focus more on the MVP
-  
-## Sprint Review:
-By the end of the sprint 1, the team conducted a sprint review meeting and completed the following:
-- Team reviewed all the user stories in the sprint
-- Team demo'ed all the user stories to the Product owner and availabe stakelholders
-- Team updated Sprint burndown chart
-  
 # Evidence that you paired or mobbed on your code
+![IMG_5038](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/daf40576-3529-4875-bbea-cbd35488cadd)
 
 
 # Evidence of building product Test-First (Unit test coverage from backend):
-![IMG_5038](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/daad73fe-c652-49d1-9127-e204f3702be6)
 
 ```
 [INFO] 
@@ -340,6 +331,54 @@ By the end of the sprint 1, the team conducted a sprint review meeting and compl
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.8:report (post-unit-test) @ crimson ---
 ```
+
+
+
+## Sprint Review:
+By the end of the sprint 1, the team conducted a sprint review meeting and completed the following:
+- Team reviewed all the user stories in the sprint
+- Team demoed all the user stories to the Product owner and available stakeholders
+- Team updated Sprint burndown chart
+- Acceptance Criteria was met in all stories
+- Product Owner accepted all completed user stories.
+
+
+## The Working Software Increments:
+https://rhit-qin13.github.io/Crimson-Calm/ 
+
+
+# Stakeholder attends your sprint review:
+![PXL_20230629_180150345 MP](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/939ad4d2-89de-4a10-bc83-3961762253af)
+
+
+## Sprint Retrospective: 
+What is going well?
+-We made a realistic velocity as our velocity was 5 and we got through 5 story points
+-Our division of labor works well as everyone's skill sets are taken advantage of
+-Our daily scrums made clear what we had done and what had to be completed for the next day
+
+What isn't going well
+-Impediments make it difficult to meet up physically
+-Too much time spent on refactoring sprint backlog
+-Tasks for Sprint backlog items needed constant adjustment and change
+
+What we can enhance
+- Detailing Impediments more concisely in our daily scrum
+- Clearer tasks within PBIs taken into our sprint backlog during sprint planning
+- Focus more on the MVP
+  
+  
+## Updating PBI: 
+the team reviewed the PBIs in the product backlog and made sure stories are true user stories.
+
+
+
+
+
+
+
+
+
 
 
 
