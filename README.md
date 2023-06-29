@@ -37,16 +37,16 @@ Creating a space for the harvard community to find Meditation easily and for fre
 
 
 # **Users Stories & Estimates:**
-1. Home Page (3 points)
-2. Mood Selector (1 points)
-3. Meditation Session (4 points)
-4. Content Uploader(4 points)
-5. Event (4 points)
-6. Refer a friend (2 points)
-7. Locating Local Resources (3 points)
-8. Progress Tracking (4 points)
-9. Identify Emergency Patterns (4 points)
-10. Support(1 point)
+1. Home Page (2 points)
+2. Mood Selector (2 points)
+3. Contact Us (1 point)
+4. Meditation Session (4 points)
+5. Content Uploader(4 points)
+6. Event (4 points)
+7. Refer a friend (2 points)
+8. Locating Local Resources (3 points)
+9. Progress Tracking (4 points)
+10. Identify Emergency Patterns (4 points)
 11. Scheduling & reminders (4 points)
 
 ## **Rational of Ordering:**
@@ -54,7 +54,9 @@ Creating a space for the harvard community to find Meditation easily and for fre
 - User needs
 - Importance
 - Complexity
-- Urgency 
+- Urgency
+
+  
 ## **Rational of Estimate:**
  We estimated the smallest User story Support as 1 point because it is a single webpage with limited functionality. 
  Based on that, we are able to estimate the rest of the stories 
@@ -70,7 +72,7 @@ Creating a space for the harvard community to find Meditation easily and for fre
 
 ## Whole Team Relative-size Estimates: 
 Met for 6 hours to dicuss product vision & user 
-stories and we came up with the 51 Story Points 
+stories and we came up with the 38 Story Points 
 
 
 ### **Developers participated in estimating:**
@@ -84,9 +86,9 @@ stories and we came up with the 51 Story Points
 -----------------
 
 ## Sprint 1 Forcast:
-- 3 User Story Points
+- 5 User Story Points
 
-Explaination of forcast: This sprint is short with 4 business days only. 
+Explaination of forcast: This sprint is short with 4 business days only. Based on the product priotization, We selected the two highest priority user stories that fits the sprint.  
 
 
 ## The Rational of Forcast:
@@ -97,12 +99,140 @@ Explaination of forcast: This sprint is short with 4 business days only.
 
 
 # Stories of Sprint 1:
-- Home Page (3 points)
+- Home Page (2 points)
+- Mood Selector (2 points)
+- Contact Us (1 point)
 
-* Sprint Forcast is 3 and the user story is matching that.
+* Sprint Forcast is 5 point and the user storis are matching that.
 * Developers participated in this activity: Bill, Kamsi and Sam.
-Activity Picture Here:
+* Activity Picture Here:
+![IMG_5042](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/5f665c2e-e299-4780-a153-ba14566b5f85)
+* Only developers participated in this activity.
+* the size of each backlog item is less than half
+* Note: Product owner priortized these 3 stories as the MVP of this sprint.
 
+
+# Decomposed Stories as Developer Tasks:
+- Home Page:
+    1- Create backend 
+    2- Modify access to homepage
+    3- Frontend modify home page to look nicer 
+    4- Create the UI design and flow 
+- Mood Selector:
+   1- Create moods backend
+   2- Modify entities access between users
+   3- Frontend modify Moods page to look nicer
+   4- Create the UI design and flow 
+- Contact Us:
+  1- Create contanct Us page
+  2- Create backend for Contact Us
+
+# Srcum Board Link: 
+https://trello.com/b/jLQWHw8P/crimson-calm-aliens-2023
+
+
+# Evidence of building product Test-First (Unit test coverage from backend):
+```
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+2023-06-29 09:32:50.774 DEBUG   --- [           main] com.tngtech.archunit.ArchConfiguration   : No configuration found in classpath at archunit.properties => Using default configuration
+[INFO] Running com.harvard.crimson.config.StaticResourcesWebConfigurerTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.72 s - in com.harvard.crimson.config.StaticResourcesWebConfigurerTest
+[INFO] Running com.harvard.crimson.config.WebConfigurerTest
+2023-06-29 09:32:52.049 DEBUG   --- [           main] org.jboss.logging                        : Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-06-29 09:32:52.220 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
+	c.h.c.c.WebConfigurerTestController:
+	{GET [/api/test-cors]}: testCorsOnApiPath()
+	{GET [/test/test-cors]}: testCorsOnOtherPath()
+2023-06-29 09:32:52.683 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
+	c.h.c.c.WebConfigurerTestController:
+	{GET [/api/test-cors]}: testCorsOnApiPath()
+	{GET [/test/test-cors]}: testCorsOnOtherPath()
+2023-06-29 09:32:52.695 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
+	c.h.c.c.WebConfigurerTestController:
+	{GET [/api/test-cors]}: testCorsOnApiPath()
+	{GET [/test/test-cors]}: testCorsOnOtherPath()
+2023-06-29 09:32:52.703 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
+	c.h.c.c.WebConfigurerTestController:
+	{GET [/api/test-cors]}: testCorsOnApiPath()
+	{GET [/test/test-cors]}: testCorsOnOtherPath()
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.891 s - in com.harvard.crimson.config.WebConfigurerTest
+[INFO] Running com.harvard.crimson.domain.ContactTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.harvard.crimson.domain.ContactTest
+[INFO] Running com.harvard.crimson.domain.EventTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.harvard.crimson.domain.EventTest
+[INFO] Running com.harvard.crimson.domain.LocalResourceTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.harvard.crimson.domain.LocalResourceTest
+[INFO] Running com.harvard.crimson.domain.MeditationSessionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.harvard.crimson.domain.MeditationSessionTest
+[INFO] Running com.harvard.crimson.domain.MeditationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.harvard.crimson.domain.MeditationTest
+[INFO] Running com.harvard.crimson.domain.MoodTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.harvard.crimson.domain.MoodTest
+[INFO] Running com.harvard.crimson.domain.ReferalTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.harvard.crimson.domain.ReferalTest
+[INFO] Running com.harvard.crimson.management.SecurityMetersServiceTests
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.harvard.crimson.management.SecurityMetersServiceTests
+[INFO] Running com.harvard.crimson.security.SecurityUtilsUnitTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.harvard.crimson.security.SecurityUtilsUnitTest
+[INFO] Running com.harvard.crimson.security.jwt.JWTFilterTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.128 s - in com.harvard.crimson.security.jwt.JWTFilterTest
+[INFO] Running com.harvard.crimson.security.jwt.TokenProviderSecurityMetersTests
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in com.harvard.crimson.security.jwt.TokenProviderSecurityMetersTests
+[INFO] Running com.harvard.crimson.security.jwt.TokenProviderTest
+2023-06-29 09:32:52.948 ERROR   --- [           main] c.h.crimson.security.jwt.TokenProvider   : Token validation error JWT String argument cannot be null or empty.
+2023-06-29 09:32:52.952  WARN   --- [           main] c.h.crimson.security.jwt.TokenProvider   : Warning: the JWT key used is not Base64-encoded. We recommend using the `jhipster.security.authentication.jwt.base64-secret` key for optimum security.
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.harvard.crimson.security.jwt.TokenProviderTest
+[INFO] Running com.harvard.crimson.service.mapper.UserMapperTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.harvard.crimson.service.mapper.UserMapperTest
+[INFO] Running com.harvard.crimson.web.rest.ClientForwardControllerTest
+2023-06-29 09:32:52.978 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
+	c.h.c.w.r.ClientForwardController:
+	{GET [/**/{path:[^\.]*}]}: forward()
+2023-06-29 09:32:52.979 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
+	c.h.c.w.r.TestController:
+	{ [/test]}: test()
+2023-06-29 09:32:52.987 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
+	c.h.c.w.r.ClientForwardController:
+	{GET [/**/{path:[^\.]*}]}: forward()
+2023-06-29 09:32:52.987 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
+	c.h.c.w.r.TestController:
+	{ [/test]}: test()
+2023-06-29 09:32:52.991  WARN   --- [           main] o.s.web.servlet.PageNotFound             : No mapping for GET /foo/bar.js
+2023-06-29 09:32:52.994 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
+	c.h.c.w.r.ClientForwardController:
+	{GET [/**/{path:[^\.]*}]}: forward()
+2023-06-29 09:32:52.994 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
+	c.h.c.w.r.TestController:
+	{ [/test]}: test()
+2023-06-29 09:32:52.998  WARN   --- [           main] o.s.web.servlet.PageNotFound             : No mapping for GET /foo.js
+2023-06-29 09:32:53.001 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
+	c.h.c.w.r.ClientForwardController:
+	{GET [/**/{path:[^\.]*}]}: forward()
+2023-06-29 09:32:53.001 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
+	c.h.c.w.r.TestController:
+	{ [/test]}: test()
+2023-06-29 09:32:53.008 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
+	c.h.c.w.r.ClientForwardController:
+	{GET [/**/{path:[^\.]*}]}: forward()
+2023-06-29 09:32:53.009 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
+	c.h.c.w.r.TestController:
+	{ [/test]}: test()
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in com.harvard.crimson.web.rest.ClientForwardControllerTest
+[INFO] Running com.harvard.crimson.TechnicalStructureTest
+2023-06-29 09:32:53.022  INFO   --- [           main] com.tngtech.archunit.core.PluginLoader   : Detected Java version 11.0.19
+2023-06-29 09:32:53.025 DEBUG   --- [           main] com.tngtech.archunit.core.PluginLoader   : Current Java version is compatible to JAVA_9 => Loading Plugin com.tngtech.archunit.core.importer.ModuleImportPlugin
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.084 s - in com.harvard.crimson.TechnicalStructureTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 56, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.8:report (post-unit-test) @ crimson ---
+```
 
 
 
