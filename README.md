@@ -4,7 +4,7 @@
 
 ## **Team Member:**
 
-- **Noah Mokhtar (Product Owner, Developer)** 
+- **Noah Mokhtar (Product Owner)** 
 - **Mingjian Bill Qin(Scrum Master, Developer)** 
 - **Sam Akash (Developer)** 
 - **Kamsi Mbanefo(Developer)**
@@ -72,7 +72,41 @@ Creating a space for the harvard community to find Meditation easily and for fre
 Met for 6 hours to dicuss product vision & user 
 stories and we came up with the 51 Story Points 
 
+
 ### **Developers participated in estimating:**
 - Kamsi
 - Bill
 - Sam
+
+  
+
+# Sprint 1
+-----------------
+
+## Sprint 1 Forcast:
+- 3 User Story Points
+
+Explaination of forcast: This sprint is short with 4 business days only. 
+
+
+## The Rational of Forcast:
+- Avaiable bussiness days in the sprint
+- Since this is sprint 1, The team need some time to organize and work on the environment setup. 
+- We have estimated our smallest user story “Support” in the product backlog which is a single webpage with a an email link as 1 point. And, we built the rest of our estimates based on that.
+- This our first forcast for the first sprint. We are expecting to enhance our forcasting in future sprint based on sprint 1 outcome.
+
+
+# Stories of Sprint 1:
+- Home Page (3 points)
+
+* Sprint Forcast is 3 and the user story is matching that.
+* Developers participated in this activity: Bill, Kamsi and Sam.
+Activity Picture Here:
+
+
+
+
+
+
+
+
