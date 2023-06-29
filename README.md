@@ -141,7 +141,8 @@ https://trello.com/b/jLQWHw8P/crimson-calm-aliens-2023
 ![Screenshot 2023-06-29 at 12 37 35 PM](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/d4cd2110-b9b3-4adf-bd23-ff9cf1c95fd3)
 
 * The team was updating the sprint burndown chart on daily basis.
-* 
+
+  
 ## Daily Scrum Meetings:
 Monday 06/26 First Daily Scrum Meeting
 Team reviewed our sprint backlogs; dicussed the impediments;
@@ -158,42 +159,57 @@ Kamsi:
 Nothign done yet.
 Plan to finish all installation by the end of the day.
 Impediment: Had problem on installing the environment. 
- 
 
 Tuesday 06/27
-Team reviewed our sprint backlogs; dicussed the impediments; Updated Burndown chart.
-Bill: Done half of the home page building, html is completed, working on css. 
-Plan to finish the homepage by tonight.
+Team reviewed sprint backlogs; dicussed the impediments; Updated Burndown chart.
+Bill: 
+Completed half of the home page development, and html is completed. 
+Today will start  working on css of homepage. 
 No impediments
 
-Sam: done the backend data structure, no impediment, plan to finish the homepage backend tonight and host.
-Kamsi: had environment ready, had problem using angular bc first time using it, plan to learn more typescript syntax to help.
+Sam: Completed the backend data structure for home page backend.
+Today plans to work on mood selector backend.
+No impediments. 
 
+Kamsi: Completed environment setup.
+Today plan to research typescript syntax. 
+Impedimnet had problem using angular bc first time using it.
 
 Wednesday 06/28
-We revised our product and sprint backlogs based on feedback;
-We reviewed our product and sprint backlogs. 
-We arranged the tasks for each one of us; 
-we dicussed the impediments;
-we updated our newest progress and talked about what we done. 
-Bill: Had conflicts on re-estimating story points and re-ording them base on feedback. 
-Plan to finish the mood selector page that night. 
-Sam: Had disagreement about story points(problem solved at the end), Bill thinks online-meditation is the first priority and should be done first
-but Sam thinks it's too big to be done for the first sprint. So that we decided to have home page done first(which was one part of the 
-online-meditation and we broke it down)
-Plan to do backend of contactUs page.
+Team reviewed sprint backlogs; dicussed the impediments; Updated Burndown chart.
+
+Bill: 
+Completed Homepgae developement including CSS. 
+Today planning to to finish the mood selector page that night. 
+No Impedimnets
+
+Sam: 
+Completed mood selector backend.
+Plans to day to work on  "contact us" backend
+No Impedimnets.
+
 Kamsi: 
-Had some obstacles learning angular framework. Spend extra time.
-Plan to write the javascript of mood selection page.
+Worked on reseraching angular framework componenets. 
+Plans today to work on "Contact Us" page.
+Imediments: Having some challenges with Angular architecture. 
 
 Thursday 06/29
-We reviewed our product and sprint backlogs. 
-We arranged the tasks for each one of us; 
-we dicussed the impediments;
-we updated our newest progress and talked about what we done. 
-Bill: done the mood selection page html and css. Plan to work on the seleting functionality. No impediments.
-Sam:done all the backend and have hosting ready. Plan to work on meditation page backend. No impediments.
-Kamsi: Learned about Typescrip. Plan to work on writing Js code with Bill. No impediments.
+Team reviewed sprint backlogs; dicussed the impediments; Updated Burndown chart.
+
+Bill: 
+Completed the mood selection page html and css. 
+Plan to work on the seleting mood functionality. 
+No impediments.
+
+Sam: 
+Compelted the backend for contact us. 
+Plan to work on meditation page backend. 
+No impediments.
+
+Kamsi: 
+Completed reseraching angular componenets. 
+Plan to work on writing Js code with Bill.
+No impediments.
 
 ## Sprint Retrspective: 
 What is going well?
@@ -217,8 +233,12 @@ By the end of the sprint 1, the team conducted a sprint review meeting and compl
 - Team demo'ed all the user stories to the Product owner and availabe stakelholders
 - Team updated Sprint burndown chart
   
+# Evidence that you paired or mobbed on your code
+
 
 # Evidence of building product Test-First (Unit test coverage from backend):
+![IMG_5038](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/daad73fe-c652-49d1-9127-e204f3702be6)
+
 ```
 [INFO] 
 [INFO] -------------------------------------------------------
