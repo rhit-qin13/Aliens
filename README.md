@@ -98,13 +98,15 @@ Explaination of forcast: This sprint is short with 4 business days only. Based o
 - This our first forcast for the first sprint. We are expecting to enhance our forcasting in future sprint based on sprint 1 outcome.
 
 
-# Stories of Sprint 1:
-- Home Page (2 points)
-- Mood Selector (2 points)
-- Contact Us (1 point)
+## User Stories of Sprint 1:
+1. Home Page (2 points)
+2. Mood Selector (2 points)
+3. Contact Us (1 point)
 
 * Sprint Forcast is 5 point and the user storis are matching that.
 * Developers participated in this activity: Bill, Kamsi and Sam.
+
+  
 * Activity Picture Here:
 ![IMG_5042](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/5f665c2e-e299-4780-a153-ba14566b5f85)
 * Only developers participated in this activity.
@@ -112,7 +114,7 @@ Explaination of forcast: This sprint is short with 4 business days only. Based o
 * Note: Product owner priortized these 3 stories as the MVP of this sprint.
 
 
-# Decomposed Stories as Developer Tasks:
+## Decomposed Stories as Developer Tasks:
 - Home Page:
     1- Create backend 
     2- Modify access to homepage
@@ -130,6 +132,38 @@ Explaination of forcast: This sprint is short with 4 business days only. Based o
 # Srcum Board Link: 
 https://trello.com/b/jLQWHw8P/crimson-calm-aliens-2023
 
+
+## Sprint Burndown Chart:
+![Screenshot 2023-06-29 at 12 56 56 PM](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/970cc51b-446a-4802-bcaf-8166d21a4ed1)
+
+![Screenshot 2023-06-29 at 12 37 42 PM](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/0160e713-83fa-44cb-872e-4a7504d347c9)
+
+![Screenshot 2023-06-29 at 12 37 35 PM](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/d4cd2110-b9b3-4adf-bd23-ff9cf1c95fd3)
+
+* The team was updating the sprint burndown chart on daily basis.
+
+## Sprint Retrspective: 
+What is going well?
+-We made a realistic velocity as our velocity was 5 and we got through 5 story points
+-Our division of labor works well as everyones skill sets are taken advantage of
+-Our daily scrums made clear what we had done and what had to be completed for the next day
+
+What isn't going well
+-Impediments make it difficult to meet up physically
+-Too much time spent on refactoring sprint backlog
+-Tasks for Sprint backlog items needed constant adjustment and change
+
+What we can enhance
+- Detailing Impediments more concisely in our daily scrum
+- Clearer tasks within PBIs taken into our sprint backlog during sprint planning
+- Focus more on the MVP
+  
+## Sprint Review:
+By the end of the sprint 1, the team conducted a sprint review meeting and completed the following:
+- Team reviewed all the user stories in the sprint
+- Team demo'ed all the user stories to the Product owner and availabe stakelholders
+- Team updated Sprint burndown chart
+  
 
 # Evidence of building product Test-First (Unit test coverage from backend):
 ```
