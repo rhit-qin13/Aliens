@@ -228,7 +228,7 @@ No impediments.
 ![IMG_5038](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/daf40576-3529-4875-bbea-cbd35488cadd)
 
 
-# Evidence of building product Test-First (Unit test coverage from backend):
+# Evidence of building product Test-First (Unit test coverage):
 
 ```
 [INFO] 
