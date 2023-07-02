@@ -442,7 +442,34 @@ Imediments: no impediments.
 
 # Evidence of building product Test-First (Unit test coverage):
 ```
-test cases here
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+2023-07-02 16:46:12.441 DEBUG   --- [           main] com.tngtech.archunit.ArchConfiguration   : No configuration found in classpath at archunit.properties => Using default configuration
+[INFO] Running com.harvard.crimson.domain.ContactTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.331 s - in com.harvard.crimson.domain.ContactTest
+[INFO] Running com.harvard.crimson.domain.MeditationSessionTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.harvard.crimson.domain.MeditationSessionTest
+[INFO] Running com.harvard.crimson.domain.MeditationTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.harvard.crimson.domain.MeditationTest
+[INFO] Running com.harvard.crimson.domain.MoodTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.harvard.crimson.domain.MoodTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.8:report (post-unit-test) @ crimson ---
+[INFO] Loading execution data file /Users/samakash/workspace/Aliens/Crimson/target/jacoco.exec
+[INFO] Analyzed bundle 'Crimson' with 85 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.406 s
+[INFO] Finished at: 2023-07-02T16:46:13-07:00
+[INFO] ------------------------------------------------------------------------
+
 ```
 
 
