@@ -23,19 +23,37 @@
         <section id="mood-selection">
             <h2>Select Your Mood</h2>
             <div class="emoji-container">
-                <span class="emoji" data-mood="happy" role="button">&#x1F601;</span>
-                <span class="emoji" data-mood="sad" role="button">&#x1F622;</span>
-                <span class="emoji" data-mood="energetic" role="button">&#x1F4AA;</span>
-                <span class="emoji" data-mood="relaxed" role="button">&#x1F60C;</span>
+                <span class="emoji" data-mood="happy" data-url="happy_video.html" role="button">&#x1F601;</span>
+                <span class="emoji" data-mood="sad" data-url="sad_video.html" role="button">&#x1F622;</span>
+                <span class="emoji" data-mood="energetic" data-url="energetic_video.html" role="button">&#x1F4AA;</span>
+                <span class="emoji" data-mood="relaxed" data-url="relaxed_video.html" role="button">&#x1F60C;</span>
             </div>
-            <button class="cta" id="get-recommendations" disabled>Start</button>
+            <button class="cta" id="start" disabled>Start</button>
         </section>
-     
     </main>
     <footer class="footer">
         <p>&copy; Crimson-Calm 2023. All rights reserved.</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/openai@0.28.0/umd/openai.browser.js"></script>
-    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const emojis = document.querySelectorAll('.emoji');
+            const startButton = document.getElementById('start');
+
+            emojis.forEach(emoji => {
+                emoji.addEventListener('click', () => {
+                    emojis.forEach(e => e.classList.remove('selected'));
+                    emoji.classList.add('selected');
+                    startButton.disabled = false;
+                });
+            });
+
+            startButton.addEventListener('click', () => {
+                const selectedEmoji = document.querySelector('.emoji.selected');
+                if (selectedEmoji) {
+                    location.href = selectedEmoji.dataset.url;
+                }
+            });
+        });
+    </script>
 </body>
 </html>
