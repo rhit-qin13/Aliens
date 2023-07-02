@@ -228,105 +228,69 @@ No impediments.
 # Evidence of building product Test-First (Unit test coverage):
 
 ```
-[INFO] 
 [INFO] -------------------------------------------------------
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
-2023-06-29 09:32:50.774 DEBUG   --- [           main] com.tngtech.archunit.ArchConfiguration   : No configuration found in classpath at archunit.properties => Using default configuration
-[INFO] Running com.harvard.crimson.config.StaticResourcesWebConfigurerTest
-[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.72 s - in com.harvard.crimson.config.StaticResourcesWebConfigurerTest
-[INFO] Running com.harvard.crimson.config.WebConfigurerTest
-2023-06-29 09:32:52.049 DEBUG   --- [           main] org.jboss.logging                        : Logging Provider: org.jboss.logging.Log4j2LoggerProvider
-2023-06-29 09:32:52.220 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
-	c.h.c.c.WebConfigurerTestController:
-	{GET [/api/test-cors]}: testCorsOnApiPath()
-	{GET [/test/test-cors]}: testCorsOnOtherPath()
-2023-06-29 09:32:52.683 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
-	c.h.c.c.WebConfigurerTestController:
-	{GET [/api/test-cors]}: testCorsOnApiPath()
-	{GET [/test/test-cors]}: testCorsOnOtherPath()
-2023-06-29 09:32:52.695 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
-	c.h.c.c.WebConfigurerTestController:
-	{GET [/api/test-cors]}: testCorsOnApiPath()
-	{GET [/test/test-cors]}: testCorsOnOtherPath()
-2023-06-29 09:32:52.703 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
-	c.h.c.c.WebConfigurerTestController:
-	{GET [/api/test-cors]}: testCorsOnApiPath()
-	{GET [/test/test-cors]}: testCorsOnOtherPath()
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.891 s - in com.harvard.crimson.config.WebConfigurerTest
-[INFO] Running com.harvard.crimson.domain.ContactTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.harvard.crimson.domain.ContactTest
-[INFO] Running com.harvard.crimson.domain.EventTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.harvard.crimson.domain.EventTest
-[INFO] Running com.harvard.crimson.domain.LocalResourceTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.harvard.crimson.domain.LocalResourceTest
-[INFO] Running com.harvard.crimson.domain.MeditationSessionTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.harvard.crimson.domain.MeditationSessionTest
-[INFO] Running com.harvard.crimson.domain.MeditationTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.harvard.crimson.domain.MeditationTest
+2023-07-02 10:53:01.124 DEBUG   --- [           main] com.tngtech.archunit.ArchConfiguration   : No configuration found in classpath at archunit.properties => Using default configuration
 [INFO] Running com.harvard.crimson.domain.MoodTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.harvard.crimson.domain.MoodTest
-[INFO] Running com.harvard.crimson.domain.ReferalTest
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.harvard.crimson.domain.ReferalTest
-[INFO] Running com.harvard.crimson.management.SecurityMetersServiceTests
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.harvard.crimson.management.SecurityMetersServiceTests
-[INFO] Running com.harvard.crimson.security.SecurityUtilsUnitTest
-[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.harvard.crimson.security.SecurityUtilsUnitTest
-[INFO] Running com.harvard.crimson.security.jwt.JWTFilterTest
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.128 s - in com.harvard.crimson.security.jwt.JWTFilterTest
-[INFO] Running com.harvard.crimson.security.jwt.TokenProviderSecurityMetersTests
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in com.harvard.crimson.security.jwt.TokenProviderSecurityMetersTests
-[INFO] Running com.harvard.crimson.security.jwt.TokenProviderTest
-2023-06-29 09:32:52.948 ERROR   --- [           main] c.h.crimson.security.jwt.TokenProvider   : Token validation error JWT String argument cannot be null or empty.
-2023-06-29 09:32:52.952  WARN   --- [           main] c.h.crimson.security.jwt.TokenProvider   : Warning: the JWT key used is not Base64-encoded. We recommend using the `jhipster.security.authentication.jwt.base64-secret` key for optimum security.
-[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.harvard.crimson.security.jwt.TokenProviderTest
-[INFO] Running com.harvard.crimson.service.mapper.UserMapperTest
-[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.harvard.crimson.service.mapper.UserMapperTest
-[INFO] Running com.harvard.crimson.web.rest.ClientForwardControllerTest
-2023-06-29 09:32:52.978 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
-	c.h.c.w.r.ClientForwardController:
-	{GET [/**/{path:[^\.]*}]}: forward()
-2023-06-29 09:32:52.979 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
-	c.h.c.w.r.TestController:
-	{ [/test]}: test()
-2023-06-29 09:32:52.987 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
-	c.h.c.w.r.ClientForwardController:
-	{GET [/**/{path:[^\.]*}]}: forward()
-2023-06-29 09:32:52.987 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
-	c.h.c.w.r.TestController:
-	{ [/test]}: test()
-2023-06-29 09:32:52.991  WARN   --- [           main] o.s.web.servlet.PageNotFound             : No mapping for GET /foo/bar.js
-2023-06-29 09:32:52.994 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
-	c.h.c.w.r.ClientForwardController:
-	{GET [/**/{path:[^\.]*}]}: forward()
-2023-06-29 09:32:52.994 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
-	c.h.c.w.r.TestController:
-	{ [/test]}: test()
-2023-06-29 09:32:52.998  WARN   --- [           main] o.s.web.servlet.PageNotFound             : No mapping for GET /foo.js
-2023-06-29 09:32:53.001 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
-	c.h.c.w.r.ClientForwardController:
-	{GET [/**/{path:[^\.]*}]}: forward()
-2023-06-29 09:32:53.001 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
-	c.h.c.w.r.TestController:
-	{ [/test]}: test()
-2023-06-29 09:32:53.008 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
-	c.h.c.w.r.ClientForwardController:
-	{GET [/**/{path:[^\.]*}]}: forward()
-2023-06-29 09:32:53.009 DEBUG   --- [           main] _.s.web.servlet.HandlerMapping.Mappings  : 
-	c.h.c.w.r.TestController:
-	{ [/test]}: test()
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in com.harvard.crimson.web.rest.ClientForwardControllerTest
-[INFO] Running com.harvard.crimson.TechnicalStructureTest
-2023-06-29 09:32:53.022  INFO   --- [           main] com.tngtech.archunit.core.PluginLoader   : Detected Java version 11.0.19
-2023-06-29 09:32:53.025 DEBUG   --- [           main] com.tngtech.archunit.core.PluginLoader   : Current Java version is compatible to JAVA_9 => Loading Plugin com.tngtech.archunit.core.importer.ModuleImportPlugin
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.084 s - in com.harvard.crimson.TechnicalStructureTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.345 s - in com.harvard.crimson.domain.MoodTest
 [INFO] 
 [INFO] Results:
 [INFO] 
-[INFO] Tests run: 56, Failures: 0, Errors: 0, Skipped: 0
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.8:report (post-unit-test) @ crimson ---
+[INFO] Loading execution data file /Users/samakash/workspace/Aliens/Crimson/target/jacoco.exec
+[INFO] Analyzed bundle 'Crimson' with 85 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.824 s
+[INFO] Finished at: 2023-07-02T10:53:01-07:00
+[INFO] ------------------------------------------------------------------------
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+2023-07-02 10:42:47.539 DEBUG   --- [           main] com.tngtech.archunit.ArchConfiguration   : No configuration found in classpath at archunit.properties => Using default configuration
+[INFO] Running com.harvard.crimson.domain.ContactTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.364 s - in com.harvard.crimson.domain.ContactTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.8:report (post-unit-test) @ crimson ---
+[INFO] Loading execution data file /Users/samakash/workspace/Aliens/Crimson/target/jacoco.exec
+[INFO] Analyzed bundle 'Crimson' with 85 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.436 s
+[INFO] Finished at: 2023-07-02T10:42:48-07:00
+[INFO] ------------------------------------------------------------------------
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+2023-07-02 10:44:40.864 DEBUG   --- [           main] com.tngtech.archunit.ArchConfiguration   : No configuration found in classpath at archunit.properties => Using default configuration
+[INFO] Running com.harvard.crimson.domain.MeditationTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.371 s - in com.harvard.crimson.domain.MeditationTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.8:report (post-unit-test) @ crimson ---
+[INFO] Loading execution data file /Users/samakash/workspace/Aliens/Crimson/target/jacoco.exec
+[INFO] Analyzed bundle 'Crimson' with 85 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.909 s
+[INFO] Finished at: 2023-07-02T10:44:41-07:00
+[INFO] ------------------------------------------------------------------------
 ```
 
 
