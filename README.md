@@ -315,6 +315,14 @@ https://rhit-qin13.github.io/Crimson-Calm/
 Zoom Meeting Recording: 
 https://drive.google.com/file/d/1SBJECIqlum-AUREmyaj3xAU_PUpkY20q/view?usp=sharing
 
+## Feedback from Stakeholder about sprint 1:
+- Logo on main page is not clean looking. Need re-alignment. 
+- Mood page link location is not convient
+- Menu items size is small
+- Contact us page is not great. Need to be cleaned up.
+
+Team will add the feedback as a new user story for sprint 2.  
+
 ## Sprint Retrospective: 
 What is going well?
 -We made a realistic velocity as our velocity was 5 and we got through 5 story points
