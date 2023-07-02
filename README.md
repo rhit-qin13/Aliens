@@ -401,58 +401,43 @@ https://trello.com/b/jLQWHw8P/crimson-calm-aliens-2023
 
 ## Daily Scrum Meetings:
 
-07/01
-- Team reviewed our sprint backlogs; dicussed the impediments;
-- Bill:
-Worked on mood page.
-Plan to start fixing UI issues. 
-Impediment: connectivity issues with github.
-
-- Sam: 
-worked on mediation backend
-Plan to work on session backend. 
-Impediment: Had some Github issues
-
-- Kamsi: 
-Worked on angular component of mood
-Plan to finish componenet by the end of the day.
-Impediment: Had problem on integrating component. 
-
 -----------------
 
-07/02
+07/02 Sun
 - Team reviewed sprint backlogs; dicussed the impediments; Updated Burndown chart.
 - Bill: 
-Completed UI fixes
-Today will start mediation page
+Yesterday Completed UI fixes
+Today will start UI for mediation page
 No impediments
 
-- Sam: Completed the backend for mood to session 
+- Sam:
+Yesterday completed the backend for mood to session 
 Today plans to work on session to mediaition
 No impediments. 
 
-- Kamsi: working on mediaiton session angular
+- Kamsi:
+Yesterday working on mediaiton session angular
 Today plan to work on retrospective action item
-Impedimnet had problem using angular 
+Impedimnet challenges using angular 
 
 -----------------
 
-07/03
+07/03 Mon
 - Team reviewed sprint backlogs; dicussed the impediments; Updated Burndown chart.
 
 - Bill: 
-Completed mood to mediaiton ui
+Yesterday Completed mood to mediaiton ui
 Today planning to to finish the rest with the product owner feedback
 No Impedimnets
 
 - Sam: 
-Completed required backend for sprint 2 backend.
-Plans to conenct frontedn to backend
+Yesterday Completed required backend for sprint 2 backend.
+Today Plans to conenct frontend to backend
 No Impedimnets.
 
 - Kamsi: 
-started working on retrospective action item template
-complete the rest of the action item
+Yesteday started working on retrospective action item template
+Today complete the rest of the action item
 Imediments: no impediments
 
 -----------------
@@ -462,7 +447,9 @@ Imediments: no impediments
 
 
 # Evidence of building product Test-First (Unit test coverage):
-
+```
+test cases here
+```
 
 
 ## Sprint Review:
@@ -483,14 +470,20 @@ https://rhit-qin13.github.io/Crimson-Calm/
 
 
 ## Sprint Retrospective: 
+
 What is Going Well
 - Our daily scrum helps to properly divide the tasks for the next day
 - We have good chemistry which makes mob programming seamless
+
 What isn't Going Well
--We had to use a lower velocity due to time constraints
--Didn't understand the timeline of the second sprint too well
+- We had to use a lower velocity due to time constraints
+- Didn't understand the timeline of the second sprint too well
+
 What we can Enhance
-- get a clearer understanding of Sprint Timeline 
+- Clearer understanding of Sprint Timeline
+
+
+### Action Item: Make sure to start Sprint 3 on Mon 7/3 and complete it By Thursday.
 
   
   
