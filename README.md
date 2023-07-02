@@ -319,7 +319,7 @@ https://drive.google.com/file/d/1SBJECIqlum-AUREmyaj3xAU_PUpkY20q/view?usp=shari
 - Logo on main page is not clean looking. Need re-alignment. 
 - Mood page link location is not convient
 - Menu items size is small
-- Contact us page is not great. Need to be cleaned up.
+- Contact us page needs some rework. re-align elements and revisit form size. 
 
 Team will add the feedback as a new user story for sprint 2.  
 
