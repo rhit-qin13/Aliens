@@ -140,9 +140,6 @@ Note: Tasks can be accessed by clicking on the user story.
 ## Sprint Burndown Chart:
 ![Screenshot 2023-06-29 at 12 56 56 PM](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/970cc51b-446a-4802-bcaf-8166d21a4ed1)
 
-![Screenshot 2023-06-29 at 12 37 42 PM](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/0160e713-83fa-44cb-872e-4a7504d347c9)
-
-![Screenshot 2023-06-29 at 12 37 35 PM](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/d4cd2110-b9b3-4adf-bd23-ff9cf1c95fd3)
 
 * The team was updating the sprint burndown chart on daily basis.
 
