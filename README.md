@@ -436,8 +436,8 @@ Imediments: no impediments.
 -----------------
 
 # Evidence that you paired or mobbed on your code
+![IMG_5088](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/0b367272-033d-4093-aa86-b536186cd24a)
 
-![Screenshot 2023-07-02 at 4 05 22 PM](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/306ce8bf-9d58-4eda-a63a-2be1ca7b438f)
 
 
 # Evidence of building product Test-First (Unit test coverage):
