@@ -346,8 +346,171 @@ the team reviewed the PBIs in the product backlog and made sure stories are true
 
 
 
+# Sprint 2
+-----------------
 
 
+## Sprint 2 Forcast:
+- 4 User Story Points
+
+
+## The Rational of Forcast:
+- Avaiable bussiness days in the sprint
+- Lessons learned from sprint 1
+- Product Priorities
+- Stakeholders feedback
+- Sprint restrospective
+
+
+## User Stories of Sprint 2:
+1. Sptint 1 Feedback from stakeholder (UI Improvments) - 1.5
+2. Retrospective Action Item - 1
+3. Meditation Session - 1.5 Points
+
+
+* Sprint 2 Forcast is 4 point and the user storis are matching that.
+* Developers participated in this activity: Bill, Kamsi and Sam
+
+  
+* Activity Picture Here:
+![IMG_5086](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/9f368b1a-4f6d-4abe-8a33-944ec5cb8795)
+* picture of developers participated in this activity.
+* the size of each backlog item is less than half
+* Note: Product owner priortized these stories as the goal of this sprint.
+
+
+## Decomposed Stories as Developer Tasks:
+1. Sprint 1 feedback (1.5 point):
+   - Fix UI Issues (1.5)
+2. Retrospective Item: (1 point)
+    - Create a formatted template for impediments (1)
+3. Mediation Session: (1.5 points)
+   - 5 videos of mediation and uplaod them to public link (0.5)
+   - build UI from Mood to Medfiaition (0.5)
+   - build video player componenet(0.5)
+
+
+# Srcum Board Link (Kanban Board): 
+https://trello.com/b/jLQWHw8P/crimson-calm-aliens-2023
+
+# Burndown Chart:
+![Screenshot 2023-07-02 at 4 05 22 PM](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/ce53ae04-3e3c-4756-8290-4f9c4aaeab7e)
+
+
+
+
+## Daily Scrum Meetings:
+
+07/01
+- Team reviewed our sprint backlogs; dicussed the impediments;
+- Bill:
+Worked on mood page.
+Plan to start fixing UI issues. 
+Impediment: connectivity issues with github.
+
+- Sam: 
+worked on mediation backend
+Plan to work on session backend. 
+Impediment: Had some Github issues
+
+- Kamsi: 
+Worked on angular component of mood
+Plan to finish componenet by the end of the day.
+Impediment: Had problem on integrating component. 
+
+-----------------
+
+07/02
+- Team reviewed sprint backlogs; dicussed the impediments; Updated Burndown chart.
+- Bill: 
+Completed UI fixes
+Today will start mediation page
+No impediments
+
+- Sam: Completed the backend for mood to session 
+Today plans to work on session to mediaition
+No impediments. 
+
+- Kamsi: working on mediaiton session angular
+Today plan to work on retrospective action item
+Impedimnet had problem using angular 
+
+-----------------
+
+07/03
+- Team reviewed sprint backlogs; dicussed the impediments; Updated Burndown chart.
+
+- Bill: 
+Completed mood to mediaiton ui
+Today planning to to finish the rest with the product owner feedback
+No Impedimnets
+
+- Sam: 
+Completed required backend for sprint 2 backend.
+Plans to conenct frontedn to backend
+No Impedimnets.
+
+- Kamsi: 
+started working on retrospective action item template
+complete the rest of the action item
+Imediments: no impediments
+
+-----------------
+
+# Evidence that you paired or mobbed on your code
+![Screenshot 2023-07-02 at 4 05 22 PM](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/306ce8bf-9d58-4eda-a63a-2be1ca7b438f)
+
+
+# Evidence of building product Test-First (Unit test coverage):
+
+
+
+## Sprint Review:
+By the end of the sprint 2, the team conducted a sprint review meeting and completed the following:
+- Team reviewed all the user stories in the sprint
+- Team demoed all the user stories to the Product owner and available stakeholders
+- Team updated Sprint burndown chart
+- Product Owner accepted all completed user stories.
+
+
+## The Working Software Increments:
+https://rhit-qin13.github.io/Crimson-Calm/ 
+
+
+# Stakeholder attends your sprint review:
+![PXL_20230702_181531127 MP](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/28fc6701-1a41-493e-a2b9-f3a0633ab965)
+![PXL_20230702_181537302](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/cdd00870-2937-4557-a28a-f35f1ecfc038)
+
+Zoom Meeting Recording: 
+https://drive.google.com/file/d/1SBJECIqlum-AUREmyaj3xAU_PUpkY20q/view?usp=sharing
+
+## Feedback from Stakeholder about sprint 1:
+- Logo on main page is not clean looking. Need re-alignment. 
+- Mood page link location is not convient
+- Menu items size is small
+- Contact us page needs some rework. re-align elements and revisit form size. 
+
+Team will add the feedback as a new user story for sprint 2.  
+
+## Sprint Retrospective: 
+What is going well?
+-We made a realistic velocity as our velocity was 5 and we got through 5 story points
+-Our division of labor works well as everyone's skill sets are taken advantage of
+-Our daily scrums made clear what we had done and what had to be completed for the next day
+
+What isn't going well
+-Impediments make it difficult to meet up physically
+-Too much time spent on refactoring sprint backlog
+-Tasks for Sprint backlog items needed constant adjustment and change
+
+What we can enhance
+- Detailing Impediments more concisely in our daily scrum
+- Clearer tasks within PBIs taken into our sprint backlog during sprint planning
+- Focus more on the MVP
+  
+  
+## Updating PBI: 
+the team reviewed the PBIs in the product backlog and made sure stories are true user stories.
 
 
 
