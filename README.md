@@ -312,7 +312,8 @@ https://rhit-qin13.github.io/Crimson-Calm/
 ![PXL_20230702_181531127 MP](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/28fc6701-1a41-493e-a2b9-f3a0633ab965)
 ![PXL_20230702_181537302](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/cdd00870-2937-4557-a28a-f35f1ecfc038)
 
-
+Zoom Meeting Recording: 
+https://drive.google.com/file/d/1SBJECIqlum-AUREmyaj3xAU_PUpkY20q/view?usp=sharing
 
 ## Sprint Retrospective: 
 What is going well?
