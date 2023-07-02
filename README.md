@@ -348,8 +348,6 @@ the team reviewed the PBIs in the product backlog and made sure stories are true
 
 # Sprint 2
 -----------------
-
-
 ## Sprint 2 Forcast:
 - 4 User Story Points
 
@@ -366,7 +364,6 @@ the team reviewed the PBIs in the product backlog and made sure stories are true
 1. Sptint 1 Feedback from stakeholder (UI Improvments) - 1.5
 2. Retrospective Action Item - 1
 3. Meditation Session - 1.5 Points
-
 
 * Sprint 2 Forcast is 4 point and the user storis are matching that.
 * Developers participated in this activity: Bill, Kamsi and Sam
@@ -397,28 +394,24 @@ https://trello.com/b/jLQWHw8P/crimson-calm-aliens-2023
 ![Screenshot 2023-07-02 at 4 05 22 PM](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/ce53ae04-3e3c-4756-8290-4f9c4aaeab7e)
 
 
-
-
 ## Daily Scrum Meetings:
 
------------------
-
-07/02 Sun
+07/02 Sun: 
 - Team reviewed sprint backlogs; dicussed the impediments; Updated Burndown chart.
 - Bill: 
-Yesterday Completed UI fixes
-Today will start UI for mediation page
-No impediments
+Yesterday Completed UI fixes.
+Today will start UI for mediation page.
+No impediments.
 
 - Sam:
-Yesterday completed the backend for mood to session 
-Today plans to work on session to mediaition
+Yesterday completed the backend for mood to session. 
+Today plans to work on session to mediaition.
 No impediments. 
 
 - Kamsi:
-Yesterday working on mediaiton session angular
-Today plan to work on retrospective action item
-Impedimnet challenges using angular 
+Yesterday working on mediaiton session angular.
+Today plan to work on retrospective action item.
+Impedimnet challenges using angular. 
 
 -----------------
 
@@ -426,23 +419,24 @@ Impedimnet challenges using angular
 - Team reviewed sprint backlogs; dicussed the impediments; Updated Burndown chart.
 
 - Bill: 
-Yesterday Completed mood to mediaiton ui
-Today planning to to finish the rest with the product owner feedback
-No Impedimnets
+Yesterday Completed mood to mediaiton UI.
+Today planning to to finish the rest with the product owner feedback.
+No Impedimnets.
 
 - Sam: 
 Yesterday Completed required backend for sprint 2 backend.
-Today Plans to conenct frontend to backend
+Today Plans to conenct frontend to backend.
 No Impedimnets.
 
 - Kamsi: 
-Yesteday started working on retrospective action item template
-Today complete the rest of the action item
-Imediments: no impediments
+Yesteday started working on retrospective action item template.
+Today complete the rest of the action item.
+Imediments: no impediments.
 
 -----------------
 
 # Evidence that you paired or mobbed on your code
+
 ![Screenshot 2023-07-02 at 4 05 22 PM](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/306ce8bf-9d58-4eda-a63a-2be1ca7b438f)
 
 
