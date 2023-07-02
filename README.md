@@ -478,35 +478,20 @@ https://rhit-qin13.github.io/Crimson-Calm/
 
 
 # Stakeholder attends your sprint review:
-![PXL_20230702_181531127 MP](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/28fc6701-1a41-493e-a2b9-f3a0633ab965)
-![PXL_20230702_181537302](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/cdd00870-2937-4557-a28a-f35f1ecfc038)
+![PXL_20230702_181413872 MP](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/2c442db0-0862-4d49-a221-a46ae50e0014)
 
-Zoom Meeting Recording: 
-https://drive.google.com/file/d/1SBJECIqlum-AUREmyaj3xAU_PUpkY20q/view?usp=sharing
 
-## Feedback from Stakeholder about sprint 1:
-- Logo on main page is not clean looking. Need re-alignment. 
-- Mood page link location is not convient
-- Menu items size is small
-- Contact us page needs some rework. re-align elements and revisit form size. 
-
-Team will add the feedback as a new user story for sprint 2.  
 
 ## Sprint Retrospective: 
-What is going well?
--We made a realistic velocity as our velocity was 5 and we got through 5 story points
--Our division of labor works well as everyone's skill sets are taken advantage of
--Our daily scrums made clear what we had done and what had to be completed for the next day
+What is Going Well
+- Our daily scrum helps to properly divide the tasks for the next day
+- We have good chemistry which makes mob programming seamless
+What isn't Going Well
+-We had to use a lower velocity due to time constraints
+-Didn't understand the timeline of the second sprint too well
+What we can Enhance
+- get a clearer understanding of Sprint Timeline 
 
-What isn't going well
--Impediments make it difficult to meet up physically
--Too much time spent on refactoring sprint backlog
--Tasks for Sprint backlog items needed constant adjustment and change
-
-What we can enhance
-- Detailing Impediments more concisely in our daily scrum
-- Clearer tasks within PBIs taken into our sprint backlog during sprint planning
-- Focus more on the MVP
   
   
 ## Updating PBI: 
