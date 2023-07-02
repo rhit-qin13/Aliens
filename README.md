@@ -309,7 +309,9 @@ https://rhit-qin13.github.io/Crimson-Calm/
 
 
 # Stakeholder attends your sprint review:
-![PXL_20230629_180150345 MP](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/939ad4d2-89de-4a10-bc83-3961762253af)
+![PXL_20230702_181531127 MP](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/28fc6701-1a41-493e-a2b9-f3a0633ab965)
+![PXL_20230702_181537302](https://github.com/rhit-qin13/Crimson-Calm/assets/25805336/cdd00870-2937-4557-a28a-f35f1ecfc038)
+
 
 
 ## Sprint Retrospective: 
