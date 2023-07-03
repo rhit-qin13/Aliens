@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crimson-Calm Video Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <img src="logo.png" alt="Crimson-Calm Logo">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mood.html">Mood</a></li>
+                <li><a href="contactUs.html">Contact</a></ to get to the next relevant response.
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="video-player">
+            <h2>Your Personalized Meditation Video:😕</h2>
+            <video controls id="meditation-video">
+                <!-- replace with your video source -->
+                <source src="sad.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; Crimson-Calm 2023. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            const videoSource = urlParams.get('source');
+            const videoPlayer = document.getElementById('meditation-video');
+
+            if (videoSource) {
+                videoPlayer.src = videoSource;
+            } else {
+                alert('No video source provided!');
+            }
+        });
+    </script>
+</body>
+</html>

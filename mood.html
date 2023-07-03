@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crimson-Calm Mood Input</title>
+    <link rel="stylesheet" href="mood.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <img src="logo.png" alt="Crimson-Calm Logo">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <!-- <li><a href="account.html">Account</a></li> -->
+                <li><a href="contactUs.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="mood-selection">
+            <h2>Select Your Mood</h2>
+            <div class="emoji-container">
+                <span class="emoji" data-mood="happy" data-url="happy.html" role="button">&#x1F601;</span>
+                <span class="emoji" data-mood="relaxed" data-url="relaxed.html" role="button">&#x1F60C;</span>
+                <span class="emoji" data-mood="energetic" data-url="energetic.html" role="button">&#x1F4AA;</span>
+                <span class="emoji" data-mood="Anxious" data-url="anxious.html" role="button">😨</span>
+                <span class="emoji" data-mood="sad" data-url="sad.html" role="button">😕</span>
+            </div>
+            <button class="cta" id="start" disabled>Next</button>  
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; Crimson-Calm 2023. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const emojis = document.querySelectorAll('.emoji');
+            const startButton = document.getElementById('start');
+
+            emojis.forEach(emoji => {
+                emoji.addEventListener('click', () => {
+                    emojis.forEach(e => e.classList.remove('selected'));
+                    emoji.classList.add('selected');
+                    startButton.disabled = false;
+                });
+            });
+
+            startButton.addEventListener('click', () => {
+                const selectedEmoji = document.querySelector('.emoji.selected');
+                if (selectedEmoji) {
+                    location.href = selectedEmoji.dataset.url;
+                }
+            });
+        });
+    </script>
+</body>
+</html>
