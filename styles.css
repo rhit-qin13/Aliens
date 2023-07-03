@@ -95,16 +95,19 @@ h1, h2, h3 {
 
 @media screen and (max-width: 768px) {
     .nav-menu {
-        display: none;
+        flex-direction: column;
+    }
+    .nav-menu li {
+        margin: 1rem 0;
     }
     .feature-list {
         flex-direction: column;
     }
-
     .feature {
         width: 100%;
     }
 }
+
 
 .login-link {
     color: #990000;  
